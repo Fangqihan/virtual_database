@@ -8,13 +8,14 @@ import re
 import os
 import sys
 
-from conf.settings import *
-from core.operations import *
-from core.utils import transform_str
 
 DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(DIR)
 
+
+from conf.settings import *
+from core.operations import *
+from core.utils import transform_str
 
 print('欢迎登录虚拟数据库系统'.center(30, '-'))
 while True:

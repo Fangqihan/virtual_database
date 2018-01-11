@@ -6,6 +6,7 @@
 
 from conf.settings import *
 
+
 def transform_str(lst):
     '''
     应用函数, 主要用于转化['dept', '"Market"', 'dept', '"IT"']--->['dept', 'Market', 'dept', 'IT']

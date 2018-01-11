@@ -17,7 +17,7 @@
 ## 代码结构分布图
 ![项目目录](http://oyhijg3iv.bkt.clouddn.com/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20180111221501.png)
 
-##项目包详细说明
+## 项目包详细说明
 1. management.py
  * 文件为程序主入口, 包含了程序的所有功能,可以直接调用 core包内的所有函数;
 
@@ -81,7 +81,7 @@ UPDATE staff_table SET age=25 WHERE  name = "Alex Li"
 
 
 ---
-##具体演示代码:
+## 具体演示代码:
 
 ```
 #精确查询

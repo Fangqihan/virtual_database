@@ -50,7 +50,7 @@ while True:
             print('>>> 对不起，指令语法有误，请检查空格后重新输入!')
 
     elif command_line[:6] == 'UPDATE':
-        matches = re.findall('UPDATE staff_table SET (.*)=(.*) WHERE (.*)=(.*)', command_line)
+        matches = re.findall('UPDATE staff_table SET (\w+)=(\w+) WHERE (\w+)=(\w+)', command_line)
         if matches:
             if matches[0]:
                 if len(matches[0]) == 4:
